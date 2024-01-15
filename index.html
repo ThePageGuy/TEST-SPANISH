@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Prueba</title>
+</head>
+
+<body>
+    <nav class="sticky-top">
+        <div class="bg-blue py-2">
+            <div class="container-lg">
+                <div class="d-flex justify-content-between">
+                    <div class="contactmedia">
+                        <a href="tel:123-456-789" target="_blank"
+                            class="text-decoration-none me-md-5 me-ms-3 color-text"><i class="fa-solid fa-phone"></i>
+                            123
+                            456 789</a>
+                        <a href="mailto:info@email.com" target="_blank" class="text-decoration-none color-text"><i
+                                class="fa-solid fa-envelope"></i> info@email.com</a>
+                    </div>
+                    <div class="text-end socialmedia">
+                        <a href="https://www.youtube.com" target="_blank" class="color-text"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="mx-sm-3 color-text"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" class="color-text"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-none">
+            <div class="container-lg p-2">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <img src="img/LOGO.png" width="100px" alt="Logo">
+                    </div>
+                    <div class="d-flex justify-content-around navbar">
+                        <a href="#aboutus" class="text-white text-decoration-none">About Us</a>
+                        <a href="#courses" class="text-white text-decoration-none">Courses</a>
+                        <a href="#team" class="text-white text-decoration-none">Team</a>
+                        <a href="#contactus" class="text-white text-decoration-none">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <video muted loop autoplay id="myVideo">
+            <source src="video/hero-video.mp4" type="video/mp4">
+        </video>
+        <main class="hero container-lg pt-5">
+            <div class="d-flex flex-md-nowrap flex-wrap flex-shrink-0">
+                <div class="text-white">
+                    <h3 class="my-4">Welcome a the University</h3>
+                    <div class="line my-4"></div>
+                    <h1 class="my-4">We are an online platform to make learning</h1>
+                    <button type="button"
+                        class="btn btn-warning text-white rounded-pill px-5 border border-light my-4">Get Now</button>
+                </div>
+                <div>
+                    <div class="square">
+                        <div class="text-center text-white title pt-1">
+                            <h4>Register Now!</h4>
+                        </div>
+                        <form method="post">
+                            <input type="text" name="name" id="name" placeholder="Name">
+                            <input type="email" name="email" id="email" placeholder="Email"><input type="text"
+                                name="phone" id="phone" placeholder="Phone">
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                            <button type="button"
+                                class="btn btn-warning text-white rounded-pill px-5 border border-light my-4">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+    <section id="popular">
+        <div class="container-lg">
+            <div class="my-4">
+                <h3>
+                    <ul>
+                        <li>The most popular</li>
+                    </ul>
+                </h3>
+                <div class="lines"></div>
+                <h2>know what we offer you</h2>
+            </div>
+            <div class="container-lg text-center">
+                <div class="d-flex justify-content-around flex-shrink-0 flex-wrap">
+                    <div class="offerbox">
+                        <img src="img/CURSO1.jpg" alt="curso1" width="100%" height="170px">
+                        <p class="text-center fw-bold">Design for the web with abode photoshop</p>
+                        <div class="d-flex justify-content-center">
+                            <button type="button"
+                                class="btn btn-warning text-white rounded-pill px-4 border border-light">Read
+                                More</button>
+                        </div>
+                    </div>
+                    <div class="offerbox">
+                        <img src="img/CURSO2.jpg" alt="curso2" width="100%" height="170px">
+                        <p class="text-center fw-bold">Design for the web with abode photoshop</p>
+                        <div class="d-flex justify-content-center">
+                            <button type="button"
+                                class="btn btn-warning text-white rounded-pill px-4 border border-light">Read
+                                More</button>
+                        </div>
+                    </div>
+                    <div class="offerbox">
+                        <img src="img/CURSO3.jpg" alt="curso3" width="100%" height="170px">
+                        <p class="text-center fw-bold">Design for the web with abode photoshop</p>
+                        <div class="d-flex justify-content-center">
+                            <button type="button"
+                                class="btn btn-warning text-white rounded-pill px-4 border border-light">Read
+                                More</button>
+                        </div>
+                    </div>
+                    <div class="offerbox">
+                        <img src="img/CURSO4.jpg" alt="curso4" width="100%" height="170px">
+                        <p class="text-center fw-bold">Design for the web with abode photoshop</p>
+                        <div class="d-flex justify-content-center">
+                            <button type="button"
+                                class="btn btn-warning text-white rounded-pill px-4 border border-light">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <button type="button" class="btn btn-outline-warning rounded-pill px-5 my-4">View More</button>
+            </div>
+        </div>
+    </section>
+    <section id="aboutus">
+        <div class="container-lg grid-container">
+            <div class="my-5 text-white item1">
+                <h3>
+                    <ul>
+                        <li>About Us</li>
+                    </ul>
+                </h3>
+                <div class="lines"></div>
+                <h2>Know everything we do for you</h2>
+            </div>
+            <p class="text-white item2">The university is a physical place, buildings, laboratories, libraries ... where
+                students and teachers meet. The university is also a human-social system, that is, a set of elements
+                that are related and interact with each other.</p>
+            <img src="img/ABOUTUS.jpg" width="500px" alt="Girl with Laptop" class="item3">
+            <button type="button" class="btn btn-warning text-white rounded-pill px-4 border border-light item4">Read
+                More</button>
+        </div>
+    </section>
+    <section id="benefits">
+        <div class="container-lg">
+            <div class="d-flex justify-content-around flex-wrap">
+                <div class="boxflex">
+                    <div class="circle">
+                        <img src="img/ICONO1.png" width="65%" alt="Curso 1">
+                    </div>
+                    <h4 class="text-white">Excellent Content</h4>
+                </div>
+                <div class="boxflex">
+                    <div class="circle">
+                        <img src="img/ICONO2.png" width="65%" alt="Curso 1">
+                    </div>
+                    <h4 class="text-white">Experts Instructors</h4>
+                </div>
+                <div class="boxflex">
+                    <div class="circle">
+                        <img src="img/ICONO3.png" width="65%" alt="Curso 1">
+                    </div>
+                    <h4 class="text-white">The Best Professionals</h4>
+                </div>
+                <div class="boxflex">
+                    <div class="circle">
+                        <img src="img/ICONO4.png" width="65%" alt="Curso 1">
+                    </div>
+                    <h4 class="text-white">Countles Courses</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="courses">
+        <div class="container-lg">
+            <div class="my-5 text-white item1">
+                <h3>
+                    <ul>
+                        <li>Study careers</li>
+                    </ul>
+                </h3>
+                <div class="lines"></div>
+                <h2>Explore the different careers we offer</h2>
+            </div>
+            <div class="container-lg d-flex justify-content-center">
+                <div class="grid-container-courses">
+                    <div class="course1 course">
+                        <h4>Administration</h4>
+                        <button type="button"
+                            class="btn btn-warning text-white rounded-pill px-4 border border-light">Explore</button>
+                    </div>
+                    <div class="course2 course">
+                        <h4>Accounting</h4>
+                        <button type="button"
+                            class="btn btn-warning text-white rounded-pill px-4 border border-light">Explore</button>
+                    </div>
+                    <div class="course3 course">
+                        <h4>Mathematics</h4>
+                        <button type="button"
+                            class="btn btn-warning text-white rounded-pill px-4 border border-light">Explore</button>
+                    </div>
+                    <div class="course4 course">
+                        <h4>Programming</h4>
+                        <button type="button"
+                            class="btn btn-warning text-white rounded-pill px-4 border border-light">Explore</button>
+                    </div>
+                    <div class="course5 course">
+                        <h4>Architecture</h4>
+                        <button type="button"
+                            class="btn btn-warning text-white rounded-pill px-4 border border-light">Explore</button>
+                    </div>
+                    <div class="course6 course">
+                        <h4>Biology</h4>
+                        <button type="button"
+                            class="btn btn-warning text-white rounded-pill px-4 border border-light">Explore</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <button type="button" class="btn btn-outline-warning rounded-pill px-5 my-4">View More</button>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container-lg">
+            <div class="my-5 text-white item1">
+                <h3>
+                    <ul>
+                        <li>Study careers</li>
+                    </ul>
+                </h3>
+                <div class="lines"></div>
+                <h2>Explore the different careers we offer</h2>
+            </div>
+            <div class="team-flex">
+                <div class="teambox">
+                    <img src="img/TEAM1.jpg" alt="John Smith">
+                    <h4>John Smith</h4>
+                    <h5>Math Teacher</h5>
+                    <button type="button" class="btn btn-outline-warning rounded-pill px-3 my-3">Read More</button>
+                </div>
+                <div class="teambox">
+                    <img src="img/TEAM2.jpg" alt="Dave Morgan">
+                    <h4>Dave Morgan</h4>
+                    <h5>Math Teacher</h5>
+                    <button type="button" class="btn btn-outline-warning rounded-pill px-3 my-3">Read More</button>
+                </div>
+                <div class="teambox">
+                    <img src="img/TEAM3.jpg" alt="Zara Smith">
+                    <h4>Zara Smith</h4>
+                    <h5>Biology Teacher</h5>
+                    <button type="button" class="btn btn-outline-warning rounded-pill px-3 my-3">Read More</button>
+                </div>
+                <div class="teambox">
+                    <img src="img/TEAM4.jpg" alt="Jimena Soto">
+                    <h4>Jimena Soto</h4>
+                    <h5>Math Teacher</h5>
+                    <button type="button" class="btn btn-outline-warning rounded-pill px-3 my-3">Read More</button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5 mb-3">
+                <button type="button" class="btn btn-warning text-white rounded-pill px-5 border border-light">View
+                    More</button>
+            </div>
+        </div>
+    </section>
+    <section id="video">
+        <div class="container-lg">
+            <div class="d-flex justify-content-center align-items-center">
+                <video autoplay muted loop>
+                    <source src="video/review-1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+    <section id="contactus">
+        <div class="container-lg">
+            <div class="d-flex justify-content-evenly align-items-center flex-wrap flex-shrink-0">
+                <img src="img/Logo.png" width="100px" alt="Logo">
+                <div class="links">
+                    <h6>Quick Links</h6>
+                    <div class="link d-flex flex-column">
+                        <a href="#aboutus" class="text-white text-decoration-none">About Us</a>
+                        <a href="#courses" class="text-white text-decoration-none">Courses</a>
+                        <a href="#team" class="text-white text-decoration-none">Team</a>
+                        <a href="#contactus" class="text-white text-decoration-none">Contact Us</a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h6>Contact Info</h6>
+                    <div class="contactmedia-footer">
+                        <a href="tel:123-456-789" target="_blank" class="text-decoration-none text-white"><i
+                                class="fa-solid fa-phone"></i>
+                            123 456 789</a>
+                        <a href="mailto:info@email.com" target="_blank" class="text-decoration-none text-white"><i
+                                class="fa-solid fa-envelope"></i>
+                            info@email.com</a>
+                        <a href="https://www.google.com/maps" target="_blank" class="text-decoration-none text-white"><i
+                                class="fa-solid fa-location-dot"></i>
+                            address, United States</a>
+                    </div>
+                    <div class="socialmedia-footer mt-2">
+                        <a href="https://facebook.com" target="_blank" class="text-white"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="mx-sm-3 text-white"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" class="text-white"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h6>Newsletter</h6>
+                    <form method="post" class="text-white">
+                        <label for="email-contact">Receive all our promotions and notifications</label>
+                        <input type="email" name="email-contact" id="email-contact"><input type="submit" value="Submit"
+                            class="btn btn-warning rounded-pill px-3">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-blue">
+        <div class="container-lg">
+            <div class="d-flex justify-content-between align-items-center flex-wrap white-line">
+                <div class="copyrights text-white">
+                    <p>&copy; Copyrights University . All Rights Reserved</p>
+                    <p>This Website Was Designed And Developed By Josesilvera.com</p>
+                </div>
+                <a href="https://striveenterprise.com/" target="_blank"><img src="img/LogoSE.png" height="50px"
+                        alt="Logo Josesilvera"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
